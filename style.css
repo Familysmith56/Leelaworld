@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #333;
+}
+
+header {
+    background: #22223b;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #d6c9f5;
+}
+
+nav {
+    background: #6c63a8;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe8a3;
+}
+
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #d9d2f0, #f8dfcf);
+}
+
+.hero h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background: #514783;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+.content h2 {
+    color: #514783;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.content p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.interest {
+    background: #f1edf9;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.interest h3 {
+    color: #6c63a8;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #22223b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
